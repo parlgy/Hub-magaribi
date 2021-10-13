@@ -1,0 +1,58 @@
+.btn{
+    border: 1px solid #fff; 
+    color: white;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+    transition: ease-in-out .3s;
+}
+.btn2{
+    /* background-color: #E64B22; */
+    color: #E64B22;
+}
+.btn2:hover{
+    border: 1px solid #E64B22;
+    background-color: #E64B22;
+    color: white;
+    transition: ease-in-out .2s;
+}
+.line{
+    content: '';
+    width: 105px;
+    height: 3px;
+    background-color: #E64B22;
+}
+.glass{
+    backdrop-filter: blur(10px);
+}
+
+.active{
+    color: #E64B22;
+}
+
+
+.test{
+    animation: expand .8s ease forwards;
+}
+.active{
+    color: #E64B22;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -10;
+    background-color:#E64B22;
+  }
+@keyframes expand {
+    0% {
+      transform: translateX(1400px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
