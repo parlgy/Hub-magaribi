@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/magaribi.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/magaribi.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" 
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/avantgarde-md-bt" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>MIH</title>
+  </head>
+
+ <body class="text-gray-800 antialiased" style="font-family: 'Segoe UI'; overflow-x: hidden;">
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3">
+      <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            href="../index.html">
+            <img src="../assets/img/magaribi.png" alt="logo" style="width: 150px;">
+
+          </a>
+            <button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')">
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+
+        <!-- navbar list -->
+        <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          id="example-collapse-navbar">
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto"> 
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="../index.html">
+              <span class="inline-block ml-2">Home</span></a>
+            </li>
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="./about.html">
+              <span class="inline-block ml-2">About</span></a>
+            </li> 
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="./membership.html">
+              <span class="inline-block ml-2 active">Membership</span></a>
+            </li> 
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="./events.html">
+              <span class="inline-block ml-2">Events</span></a>
+            </li> 
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="#">
+              <span class="inline-block ml-2">Partners</span></a>
+            </li> 
+             <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="#">
+              <span class="inline-block ml-2">Blog</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="relative pt-16" style="min-height: 100vh;">
+        <div class="absolute top-0 w-full h-full bg-center bg-cover"
+        style='background-image: url("../assets/img/back9.jpg"); z-index: -1;'>
+          <span id="blackOverlay" class="w-full h-full absolute bg-black opacity-50"></span>
+        </div>
+        <!-- main -->
+        <div class="relative mx-auto">
+          <div class="flex flex-wrap">
+           <div class="w-full px-4 mr-auto text-center">
+              <div class="mt-24">
+                <h1 class="text-3xl font-bold" style="color: #E64B22; font-family: 'AvantGarde Md BT';">Be One Of Us!</h1>
+                <p class="mt-4 text-xl mt-4 mr-auto text-gray-300">
+                Practical solutions that embrace human values and above all business ethics.<br>
+                At MIH, we incubate thoughts and don’t shy away to be crazy about ideas, but we also focus on bringing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tickets -->
+    <div class="flex flex-wrap mt-8 justify-center mb-12">
+            <div class="w-full lg:w-3/12 px-4 text-center p-4 rounded-lg mr-4 text-center">
+                <h6 class="text-xl mt-5 text-white font-bold" style="color: #E64B22;">
+                Flexi Space
+                </h6>
+                <p class="mt-2 mb-8 text-sm text-gray-300">
+                Charged at Kshs 500 per day, 8am-6pm Working space, High speed unlimited internet Meeting room.<br><div class=""></div>
+                </p>
+                <div class="mt-8">
+                  <a class="btn py-2 px-4 bg-white border bg-transparent text-white hover:text-white shadow-lg font-bold transition duration-500 ease-in-out" href="#">Get Now</a>
+                </div>
+            </div>
+        <div class="w-full lg:w-4/12 px-4 text-left p-4 rounded-lg text-center">
+              <h5 class="text-xl mt-5 font-semibold text-white font-bold" style="color: #E64B22;">
+                Dedicated Space
+              </h5>
+              <p class="mt-4 mb-8 text-sm text-gray-300">
+                Charged at Kshs 5000 per month, 8am-6pm Dedicated working space, High speed unlimited internet
+                 Meeting room Subsidized reprographic services.
+              </p>
+              <a class="btn py-2 px-4 bg-transparent border cursor-pointer text-white hover:text-black shadow-lg font-bold transition duration-500 ease-in-out" href="#">Get Now</a>
+            </div> 
+      </div>
+      <!-- <div class="ml-8 p-4 text-center">
+              <a href="#"><i class="pr-2 text-white fab fa-twitter"></i></a>
+              <a href="#"><i class="pr-2 text-white fab fa-facebook"></i></a>
+              <a href="#" class="text-white">+254 7464 44465</a>
+              <div class="flex justify-center">
+              <a class="text-white block pb-2 text-sm mt-4 mr-8"
+              href="#">info@mih.co.ke <br>P.O. Box 158 – 50100,<br>Kakamega</a>
+              <a class="text-white block pb-2 text-sm mt-4"
+              href="">Mega Mall,Kakamega<br>2nd Floor</a>
+              </div>
+          </div> -->
+  </body>
+  </div>
+
+
+    <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+  </html>

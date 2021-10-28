@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/magaribi.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/magaribi.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" 
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/avantgarde-md-bt" rel="stylesheet">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>MIH</title>
+  </head>
+  <body class="text-gray-800 antialiased" style="font-family: 'Segoe UI'; overflow-x: hidden;">
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3">
+      <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            href="../index.html">
+            <img src="../assets/img/magaribi.png" alt="logo" style="width: 150px;">
+
+          </a>
+            <button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')">
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+
+        <!-- navbar list -->
+        <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          id="example-collapse-navbar">
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto"> 
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="../index.html">
+              <span class="inline-block ml-2">Home</span></a>
+            </li>
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="./about.html">
+              <span class="inline-block ml-2 active">About</span></a>
+            </li> 
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="./membership.html">
+              <span class="inline-block ml-2">Membership</span></a>
+            </li> 
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="./events.html">
+              <span class="inline-block ml-2">Events</span></a>
+            </li> 
+            <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="./partners.html">
+              <span class="inline-block ml-2">Partners</span></a>
+            </li> 
+             <li class="flex items-center">
+              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center font-semibold"
+                href="./blog.html">
+              <span class="inline-block ml-2">Blog</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+     <div class="relative pt-32 pb-4" style="min-height: 100vh;">
+        <div class="absolute top-0 w-full h-full bg-center bg-cover "
+          style='background-image: url("https://images.unsplash.com/photo-1498409785966-ab341407de6e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=760&q=80"); z-index: -50;'>
+          <span id="blackOverlay" class="w-full h-full absolute bg-black opacity-75"></span>
+        </div>
+        <div class="w-full md:w-8/12 px-4 mr-auto ml-auto mt-8">
+              <h3 class="text-3xl mb-2 font-semibold leading-normal text-center" style="color: #E64B22; font-family: 'AvantGarde Md BT';">
+                Get to know us
+              </h3>
+              <p class="text-lg mt-4 mb-4 text-white text-center">
+                We dream of changing the world through innovative and practical solutions that embrace human values and above all business ethics. 
+                At MIH, we incubate thoughts and don’t shy away to be crazy about ideas, but we also focus on bringing to 
+                reality the products and services of our ecosystem by simplifying the entrepreneurship skills and training thinkers.
+              </p>
+        </div>
+            <div class="flex justify-center">
+              <div class="mt-12 md:flex text-center ">
+              <div class="lg:pt-8 pt-6 px-4 text-center">
+              <div class="relative min-w-0 break-words w-full shadow-lg rounded-lg">
+                <div class="px-4 py-5 flex-auto">
+                  <div class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16  shadow-lg rounded-full bg-white cursor-pointer">
+                    <a href="./more_about.html"><img src="../assets/img/about-icon-22.png" alt=""></a>
+                  </div>
+                  <h6 class="text-gray-200">Outsourcing</h6>
+                </div>
+              </div>
+              </div>
+
+
+              <div class="lg:pt-8 pt-6 px-4 text-center">
+              <div class="relative min-w-0 break-words w-full shadow-lg rounded-lg">
+                <div class="px-4 py-5 flex-auto">
+                  <div class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16  shadow-lg rounded-full bg-white cursor-pointer">
+                    <a href="./more_about.html"><img src="../assets/img/about-icon-4.png" alt=""></a>
+                  </div>
+                  <h6 class="text-gray-200">Entrepreneurship<br> Training</h6>
+                </div>
+              </div>
+              </div>
+
+
+              <div class="lg:pt-8 pt-6 px-4 text-center">
+              <div class="relative min-w-0 break-words w-full shadow-lg rounded-lg">
+                <div class="px-4 py-5 flex-auto">
+                  <div class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16  shadow-lg rounded-full bg-white cursor-pointer">
+                    <a href="./more_about.html"><img src="../assets/img/about-icon-21.png" alt=""></a>
+                  </div>
+                  <h6 class="text-gray-200">Innovative <br>Challanges</h6>
+                </div>
+              </div>
+              </div>
+
+              <div class="lg:pt-8 pt-6 px-4 text-center">
+              <div class="relative min-w-0 break-words w-full shadow-lg rounded-lg">
+                <div class="px-4 py-5 flex-auto">
+                  <div class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16  shadow-lg rounded-full bg-white cursor-pointer">
+                    <a href="./more_about.html"><img src="../assets/img/about-icon-23.png" alt=""></a>
+                  </div>
+                  <h6 class="text-gray-200">Code Kids</h6>
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- <div class="mt-4 flex justify-center">
+              <a href="#"><i class="pr-4 text-white fab fa-twitter"></i></a>
+              <a href="#"><i class="pr-4 text-white fab fa-facebook"></i></a>
+              <a href="#" class="text-white">+254 7464 44465</a>
+          </div> -->
+      </div>
+  </body>
+      <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+  </html>
